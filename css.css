@@ -1,0 +1,10 @@
+.l {
+  height: 100vh - 80px;
+  color: #111827;
+  color: #7c3aed;
+}
+.gird {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250, 1fr));
+  grid-auto-rows: auto;
+}
