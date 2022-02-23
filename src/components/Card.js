@@ -1,6 +1,4 @@
 import React from "react";
-import ibc from "../assert/img/ibc.png";
-
 export const Card = ({ heading, img }) => {
   return (
     <article className="p-4 text-center ">
