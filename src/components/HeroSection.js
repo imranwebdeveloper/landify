@@ -4,7 +4,7 @@ import mobile from "../assert/img/Mobile.png";
 
 function HeroSection() {
   return (
-    <section className="layout relative">
+    <section className="layout ">
       <div className="hero xl:flex py-8">
         <div className="flex-1 mb-16 xl:mb-0">
           <article className="text-[#111827] md:py-24 py-12 ">

@@ -27,7 +27,7 @@
     @apply container mx-auto px-4 md:px-6  lg:px-28;
   }
   .nav-link {
-    @apply py-1 text-sm;
+    @apply py-1;
   }
   .h1 {
     @apply text-4xl font-bold mb-4;
