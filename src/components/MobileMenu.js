@@ -34,7 +34,7 @@ const MobileMenuBar = ({ onConform }) => {
           </li>
         </ul>
       </div>
-      <div className=" py-10 gap-3 center">
+      <div className=" gap-3 center">
         <a href="/">
           <img src={google} alt="Apple Store" />
         </a>
