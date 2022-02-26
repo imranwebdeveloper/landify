@@ -8,7 +8,7 @@ import BackdropLayout from "./UI/Backdrop";
 
 const MobileMenuBar = ({ onConform }) => {
   return (
-    <div className=" flex flex-col bg-white h-screen fixed w-80 z-50 left-0 top-0 py-1 overflow-hidden ">
+    <div className=" flex flex-col bg-white h-screen fixed w-80 z-50 left-0 bottom-0-0 py-1 overflow-hidden ">
       <div className="border-b p-5 b-center ">
         <Logo />
         <button
