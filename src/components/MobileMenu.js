@@ -8,7 +8,7 @@ import BackdropLayout from "./UI/Backdrop";
 
 const MobileMenuBar = ({ onConform }) => {
   return (
-    <div className=" flex flex-col bg-white h-screen fixed w-80 z-50 left-0 bottom-0-0 py-1 overflow-hidden ">
+    <div className=" flex flex-col box-border bg-white h-screen fixed w-80 z-50 left-0 top-0 py-1 overflow-hidden">
       <div className="border-b p-5 b-center ">
         <Logo />
         <button
@@ -18,7 +18,7 @@ const MobileMenuBar = ({ onConform }) => {
           <IoMdClose />
         </button>
       </div>
-      <div className=" flex-1 p-6 ">
+      <div className="h-full p-6">
         <ul className=" flex flex-col gap-1 font-bold text-[#111827]">
           <li className="nav-link">
             <a href="/">Features</a>
@@ -34,7 +34,7 @@ const MobileMenuBar = ({ onConform }) => {
           </li>
         </ul>
       </div>
-      <div className=" gap-3 center">
+      <div className="center gap-3  ">
         <a href="/">
           <img src={google} alt="Apple Store" />
         </a>

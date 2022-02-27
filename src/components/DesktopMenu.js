@@ -6,7 +6,7 @@ import Logo from "./Logo";
 
 const DesktopMenu = ({ onConform }) => {
   return (
-    <div className="b-center flex-1 overflow-hidden  ">
+    <div className="b-center flex-1  ">
       <Logo />
       <div className=" hidden md:flex flex-1 b-center ">
         <ul className=" flex flex-1 gap-4 font-bold text-[#111827]">
