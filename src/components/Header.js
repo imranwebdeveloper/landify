@@ -9,14 +9,12 @@ const Header = () => {
   };
   return (
     <header className="border-b ">
-      <section className="layout  ">
-        <nav className="flex items-center h-20 ">
-          {toggle ? (
-            <MobileMenu onConform={toggleHandler} />
-          ) : (
-            <DesktopMenu onConform={toggleHandler} />
-          )}
-        </nav>
+      <section className="layout">
+        {toggle ? (
+          <MobileMenu onConform={toggleHandler} />
+        ) : (
+          <DesktopMenu onConform={toggleHandler} />
+        )}
       </section>
     </header>
   );

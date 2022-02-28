@@ -7,18 +7,18 @@ import st from "../assert/img/stripi.png";
 const ReviewsSection = () => {
   return (
     <section className="min-h-screen bg-[#D5FAFC]">
-      <div className="layout py-20 lg:flex gap-4">
-        <div className="flex-1 flex flex-col mb-4">
+      <div className="layout gap-4 py-20 lg:flex">
+        <div className="mb-4 flex flex-1 flex-col">
           <div className="mb-12 lg:w-96 lg:self-end ">
             <h1 className="h1">Real Stories from Real Customers</h1>
             <p>Get inspired by these stories.</p>
           </div>
-          <div className=" lg:w-96 p-6 bg-white shadow rounded-lg self-end  ">
-            <div className=" py-2 mb-4">
-              <img src={hs} alt="" className="w-28 h-8 " />
+          <div className=" self-end rounded-lg bg-white p-6 shadow lg:w-96  ">
+            <div className=" mb-4 py-2">
+              <img src={hs} alt="" className="h-8 w-28 " />
             </div>
             <blockquote className="flex gap-3 ">
-              <span className="text-[#1DB5BE] text-lg ">
+              <span className="text-lg text-[#1DB5BE] ">
                 <ImQuotesLeft className=" " />
               </span>
               <p>
@@ -28,19 +28,19 @@ const ReviewsSection = () => {
                 and easily editable.
               </p>
             </blockquote>
-            <div className="flex flex-col pl-8 mt-4">
+            <div className="mt-4 flex flex-col pl-8">
               <cite className="font-bold">Floyd Miles</cite>
               <small className="text-slate-600">Vice President, GoPro</small>
             </div>
           </div>
         </div>
         <div className="flex-1 ">
-          <div className=" lg:w-3/4 p-6 bg-white shadow rounded-lg mb-4 ">
-            <div className=" py-2 mb-4">
-              <img src={ab} alt="" className="w-28 h-8 " />
+          <div className=" mb-4 rounded-lg bg-white p-6 shadow lg:w-3/4 ">
+            <div className=" mb-4 py-2">
+              <img src={ab} alt="" className="h-8 w-28 " />
             </div>
             <blockquote className="flex gap-3 ">
-              <span className="text-[#1DB5BE] text-lg ">
+              <span className="text-lg text-[#1DB5BE] ">
                 <ImQuotesLeft className=" " />
               </span>
               <p>
@@ -49,17 +49,17 @@ const ReviewsSection = () => {
                 anyone can use it.
               </p>
             </blockquote>
-            <div className="flex flex-col pl-8 mt-4">
+            <div className="mt-4 flex flex-col pl-8">
               <cite className="font-bold">Jane Cooper</cite>
               <small className="text-slate-600">CEO, Airbnb</small>
             </div>
           </div>
-          <div className=" lg:w-80 p-6 bg-white shadow rounded-lg ">
-            <div className=" py-2 mb-4">
-              <img src={st} alt="" className="w-28 h-8 " />
+          <div className=" rounded-lg bg-white p-6 shadow lg:w-80 ">
+            <div className=" mb-4 py-2">
+              <img src={st} alt="" className="h-8 w-28 " />
             </div>
             <blockquote className="flex gap-3 ">
-              <span className="text-[#1DB5BE] text-lg ">
+              <span className="text-lg text-[#1DB5BE] ">
                 <ImQuotesLeft className=" " />
               </span>
               <p>
@@ -69,7 +69,7 @@ const ReviewsSection = () => {
                 and easily editable.
               </p>
             </blockquote>
-            <div className="flex flex-col pl-8 mt-4">
+            <div className="mt-4 flex flex-col pl-8">
               <cite className="font-bold">Kristin Watson</cite>
               <small className="text-slate-600">Co-Founder, Strapi</small>
             </div>

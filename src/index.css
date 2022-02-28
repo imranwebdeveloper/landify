@@ -12,16 +12,16 @@
 
 @layer components {
   .btn {
-    @apply h-14 px-8 rounded-md font-bold;
+    @apply h-14 rounded-md px-8 font-bold;
   }
   .angle {
-    @apply w-96 h-20 absolute -skew-y-12 -z-10 lg:block hidden;
+    @apply absolute -z-10 hidden h-20 w-96 -skew-y-12 lg:block;
   }
   .center {
-    @apply items-center justify-center flex;
+    @apply flex items-center justify-center;
   }
   .b-center {
-    @apply flex justify-between items-center;
+    @apply flex items-center justify-between;
   }
   .layout {
     @apply container mx-auto px-4 md:px-6  lg:px-28;
@@ -30,7 +30,7 @@
     @apply py-1;
   }
   .h1 {
-    @apply text-4xl font-bold mb-4;
+    @apply mb-4 text-4xl font-bold;
   }
 }
 @layer utilities {
@@ -50,5 +50,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
     grid-auto-rows: auto;
+  }
+  .bar {
+    height: calc(100vh - 20px);
   }
 }

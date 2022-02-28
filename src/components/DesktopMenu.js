@@ -6,9 +6,9 @@ import Logo from "./Logo";
 
 const DesktopMenu = ({ onConform }) => {
   return (
-    <div className="b-center flex-1  ">
+    <div className="b-center h-20 flex-1 ">
       <Logo />
-      <div className=" hidden md:flex flex-1 b-center ">
+      <div className=" b-center hidden flex-1 md:flex ">
         <ul className=" flex flex-1 gap-4 font-bold text-[#111827]">
           <li className="nav-link">
             <a href="/">Features</a>
@@ -34,7 +34,7 @@ const DesktopMenu = ({ onConform }) => {
       </div>
       <button
         onClick={() => onConform(true)}
-        className="md:hidden cursor-pointer p-2 text-xl"
+        className="cursor-pointer p-2 text-xl md:hidden"
       >
         <FaBars />
       </button>

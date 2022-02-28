@@ -13,12 +13,12 @@ const FeatureSection = () => {
       <article className="layout">
         <div className=" text-center">
           <h1 className="h1">Tailor-made Features</h1>
-          <p className=" max-w-screen-md mx-auto">
+          <p className=" mx-auto max-w-screen-md">
             Lorem ipsum is common placeholder text used to demonstrate the
             graphic elements of a document or visual presentation.
           </p>
         </div>
-        <div className="custom-grid gap-4 md:gap-10 mt-12">
+        <div className="custom-grid mt-12 gap-4 md:gap-10">
           <Card heading="Robust Workflow" img={irw} />
           <Card heading="Flexibility" img={ifx} />
           <Card heading="User Friendly" img={iuf} />

@@ -15,7 +15,7 @@ const AchievmentSection = () => {
           </div>
           <div className="flex-1 md:grid md:grid-cols-2 md:grid-rows-2 ">
             <article className=" flex items-center gap-3  py-4">
-              <div className="w-8 h-8">
+              <div className="h-8 w-8">
                 <img src={ibc} alt="" />
               </div>
               <div>
@@ -24,7 +24,7 @@ const AchievmentSection = () => {
               </div>
             </article>
             <article className=" flex items-center gap-3  py-4">
-              <div className="w-8 h-8">
+              <div className="h-8 w-8">
                 <img src={ifx} alt="" />
               </div>
               <div>
@@ -33,7 +33,7 @@ const AchievmentSection = () => {
               </div>
             </article>
             <article className=" flex items-center gap-3  py-4">
-              <div className="w-8 h-8">
+              <div className="h-8 w-8">
                 <img src={iml} alt="" />
               </div>
               <div>
@@ -42,7 +42,7 @@ const AchievmentSection = () => {
               </div>
             </article>
             <article className=" flex items-center gap-3  py-4">
-              <div className="w-8 h-8">
+              <div className="h-8 w-8">
                 <img src={irw} alt="" />
               </div>
               <div>

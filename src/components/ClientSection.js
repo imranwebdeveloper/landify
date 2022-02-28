@@ -8,26 +8,26 @@ import wm from "../assert/img/wm.png";
 
 const ClientSection = () => {
   return (
-    <section className="border mt-12 ">
+    <section className="mt-12 border ">
       <div className="layout  py-4">
-        <div className="p-6 flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4 p-6">
           <div className="px-6 py-2">
-            <img src={ab} alt="Airbnb" className="w-20 h-7" />
-          </div>
-          <div className="px-6 py-2">
-            <img src={hs} alt="HubSpot" className="w-20 h-7" />
+            <img src={ab} alt="Airbnb" className="h-7 w-20" />
           </div>
           <div className="px-6 py-2">
-            <img src={gl} alt="Google" className="w-20 h-7" />
+            <img src={hs} alt="HubSpot" className="h-7 w-20" />
+          </div>
+          <div className="px-6 py-2">
+            <img src={gl} alt="Google" className="h-7 w-20" />
           </div>
           <div className=" px-6 py-2">
-            <img src={ms} alt="Microsoft" className="w-20 h-7" />
+            <img src={ms} alt="Microsoft" className="h-7 w-20" />
           </div>
           <div className=" px-6 py-2">
-            <img src={wm} alt="Airbnb" className="w-20 h-7" />
+            <img src={wm} alt="Airbnb" className="h-7 w-20" />
           </div>
           <div className=" px-6 py-2">
-            <img src={fe} alt="Airbnb" className="w-20 h-7" />
+            <img src={fe} alt="Airbnb" className="h-7 w-20" />
           </div>
         </div>
       </div>

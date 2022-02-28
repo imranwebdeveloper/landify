@@ -24,9 +24,9 @@ const ManageSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 md:flex justify-center  ">
-            <img src={phone1} alt="" className="md:h-96 mx-auto" />
-            <img src={phone2} alt="" className="md:h-96 self-end mx-auto" />
+          <div className="flex-1 justify-center md:flex  ">
+            <img src={phone1} alt="" className="mx-auto md:h-96" />
+            <img src={phone2} alt="" className="mx-auto self-end md:h-96" />
           </div>
         </div>
       </div>

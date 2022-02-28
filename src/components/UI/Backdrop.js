@@ -2,10 +2,12 @@ import React from "react";
 
 const BackdropLayout = ({ onConform }) => {
   return (
-    <div
-      className=" backdrop-brightness-50 bg-white/30 w-full h-screen fixed z-30 top-0 left-0  overflow-hidden "
-      onClick={() => onConform(false)}
-    ></div>
+    <div className="relative">
+      <div
+        className=" fixed z-30 h-screen w-full overflow-hidden blur backdrop-brightness-50 "
+        onClick={() => onConform(false)}
+      ></div>
+    </div>
   );
 };
 

@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="layout py-16 ">
         <div className=" md:flex ">
           <div className="flex-1">
-            <div className="mr-8 flex items-center mb-3 ">
-              <a href="/" className="w-32 h-8">
+            <div className="mr-8 mb-3 flex items-center ">
+              <a href="/" className="h-8 w-32">
                 <img src={logo2} alt="logo" />
               </a>
             </div>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <a href="/"> License</a>
               </li>
             </ul>
-            <ul className="flex gap-4  mb-4 text-white">
+            <ul className="mb-4 flex  gap-4 text-white">
               <li className="nav-link">
                 <a href="/">Features</a>
               </li>
@@ -36,13 +36,13 @@ const Footer = () => {
                 <a href="/">Help</a>
               </li>
             </ul>
-            <small className="text-slate-400 py-1 ">
+            <small className="py-1 text-slate-400 ">
               &copy; 2021 Landify UI Kit. All rights reserved{" "}
             </small>
           </div>
           <div className=" mt-8">
             <p className="mb-3">Get the App</p>
-            <div className="gap-3 flex">
+            <div className="flex gap-3">
               <a href="/">
                 <img src={google} alt="Apple Store" />
               </a>
