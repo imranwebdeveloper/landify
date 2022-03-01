@@ -4,7 +4,7 @@ const BackdropLayout = ({ onConform }) => {
   return (
     <div className="relative">
       <div
-        className=" fixed z-30 h-screen w-full overflow-hidden blur backdrop-brightness-50 "
+        className=" fixed z-30 h-screen w-full  backdrop-brightness-50 "
         onClick={() => onConform(false)}
       ></div>
     </div>

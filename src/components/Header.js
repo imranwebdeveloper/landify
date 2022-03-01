@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MobileMenu from "./MobileMenu";
 import DesktopMenu from "./DesktopMenu";
 
@@ -7,6 +7,12 @@ const Header = () => {
   const toggleHandler = (isToggle) => {
     setToggle(isToggle);
   };
+  useEffect(() => {
+    toggle
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = null);
+  }, [toggle]);
+
   return (
     <header className="border-b ">
       <section className="layout">

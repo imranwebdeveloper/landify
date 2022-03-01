@@ -8,7 +8,7 @@ const DesktopMenu = ({ onConform }) => {
   return (
     <div className="b-center h-20 flex-1 ">
       <Logo />
-      <div className=" b-center hidden flex-1 md:flex ">
+      <div className=" b-center hidden flex-1 md:visible ">
         <ul className=" flex flex-1 gap-4 font-bold text-[#111827]">
           <li className="nav-link">
             <a href="/">Features</a>
@@ -34,7 +34,7 @@ const DesktopMenu = ({ onConform }) => {
       </div>
       <button
         onClick={() => onConform(true)}
-        className="cursor-pointer p-2 text-xl md:hidden"
+        className="cursor-pointer p-2 text-xl "
       >
         <FaBars />
       </button>
