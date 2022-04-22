@@ -34,7 +34,7 @@ const DesktopMenu = ({ onConform }) => {
       </div>
       <button
         onClick={() => onConform(true)}
-        className="cursor-pointer p-2 text-xl "
+        className="cursor-pointer p-2 text-xl  md:hidden "
       >
         <FaBars />
       </button>
